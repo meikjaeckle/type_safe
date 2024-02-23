@@ -1,0 +1,38 @@
+{
+  "name": "type_safe",
+  "version": "0.2.3",
+  "description": "Zero overhead utilities for preventing bugs at compile time ",
+  "keywords": "c++, cpp, c-plus-plus, type-safety, platformio",
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/meikjaeckle/type_safe"
+  },
+  "authors":
+  [
+    {
+      "name": "Jonathan Mueller",
+      "url": "https://github.com/foonathan"
+    },
+    {
+      "name": "Meik Jaeckle",
+      "url": "https://github.com/meikjaeckle"
+    }
+    
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/foonathan/type_safe",
+  "dependencies": {
+	},
+  "frameworks": "arduino",
+  "platforms": "espressif32",
+  "build": {
+    "srcDir": ".",
+    "srcFilter": "+<*> -<doc> -<example> -<test> -<test_std_module>",
+    "includeDir": "include",
+    "flags": [
+      "-I include",
+      "-I external/debug_assert"
+    ]
+  }
+}
