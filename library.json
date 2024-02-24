@@ -18,14 +18,11 @@
       "name": "Meik Jaeckle",
       "url": "https://github.com/meikjaeckle"
     }
-    
   ],
   "license": "MIT",
   "homepage": "https://github.com/foonathan/type_safe",
   "dependencies": {
 	},
-  "frameworks": "arduino",
-  "platforms": "espressif32",
   "build": {
     "srcDir": ".",
     "srcFilter": "+<*> -<doc> -<example> -<test> -<test_std_module>",
