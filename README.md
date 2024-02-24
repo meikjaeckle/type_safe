@@ -1,3 +1,13 @@
+# PlatformIO support
+This branch just adds support for PlatformIO to the type_safe library of https://github.com/foonathan/type_safe.
+
+To use it in your PlatformIO project just add it as lib_deps to your platformio.ini file:
+
+```
+lib_deps =
+  https://github.com/meikjaeckle/type_safe#platformio
+```
+
 # type_safe 
 
 ![Project Status](https://img.shields.io/endpoint?url=https%3A%2F%2Fwww.jonathanmueller.dev%2Fproject%2Ftype_safe%2Findex.json)
